@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace dictionaries
 {
@@ -6,7 +7,12 @@ namespace dictionaries
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Dictionary<string, string> stocks = new Dictionary<string, string>();
+            stocks.Add("GM", "General Motors");
+            stocks.Add("CAT", "Caterpillar");
+            stocks.Add("TSLA", "Tesla");
+            stocks.Add("GOOG", "Google");
+            stocks.Add("NKE", "Nike");
         }
     }
 }
